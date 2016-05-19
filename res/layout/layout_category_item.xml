@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/grid_item_bg_normal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_category_item1"
+                android:layout_width="58dp"
+                  android:layout_marginTop="5dp"
+                android:layout_height="58dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_category_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="NBA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/grid_item_bg_normal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_category_item2"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_category_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="NBA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/grid_item_bg_normal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_category_item3"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_category_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="NBA" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
